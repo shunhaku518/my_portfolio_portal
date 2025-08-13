@@ -75,7 +75,6 @@ a {
 
 .header ul a {
     font-size: .9em;
-
 }
 
 
@@ -165,7 +164,7 @@ a {
 .portfolio-grid {
     display: grid;
     /* 最小200px～最大240pxの幅で調整され、横に繰り返せるだけ並べる(auto-fit) */
-    grid-template-columns: repeat(auto-fit, minmax(240px 480px));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 480px));
     /* 要素を中央に集める */
     justify-content: center;
     gap: 40px 16px;
@@ -183,14 +182,15 @@ a {
     aspect-ratio: 10 / 8;
     padding: 12px;
     border-radius: 8px;
+
     /* 背景色は白だが透明度が高い */
     background: #fff2;
     /* 背景をすりガラス風の加工 */
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-left: 1px #fff5 solid;
-    border-right: 1px #fff5 solid;
-    border-bottom: 1px #fff5 solid;
+    border-right: 1px #fff3 solid;
+    border-bottom: 1px #fff1 solid;
 }
 
 .grid-box img {
@@ -204,7 +204,7 @@ a {
 }
 
 .grid-box h3 {
-    font-style: 1.2em;
+    font-size: 1.2em;
     /* タイトルが短くても最小の高さを担保 */
     min-height: 2.6em;
     /* flexで縮んだ幅を100%に指名してから中央揃え */
@@ -356,7 +356,7 @@ a {
         padding: 2% 4%;
     }
 
-    .header{
+    .header {
         justify-content: space-between;
     }
 
@@ -365,11 +365,11 @@ a {
         grid-template-columns: 1fr;
     }
 
-    .grid-box{
+    .grid-box {
         aspect-ratio: 10 / 12;
     }
 
-    .footer{
+    .footer {
         height: 150px;
     }
 }
