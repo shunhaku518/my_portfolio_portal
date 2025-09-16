@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 'images/works/the_zeroth_wonder_top.png',   // 作品画像3
         // 'images/works/delivery_spirits_top.png',    // 作品画像4
         // 'images/works/astro_shooter_top.png',       // 作品画像5
-        'images/works/JewelryHunter_Unity6.png',
+        'images/works/JewelryHunter_Unity6.jpg',
     ];
     // --- 設定はここまで ---
 
